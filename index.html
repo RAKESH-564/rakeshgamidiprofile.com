@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Rakesh Gamidi Portfolio</title>
+    <title>Rakesh Gamidi Profile</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -23,8 +23,8 @@
     <link rel="stylesheet" href="css/style.css">
 
 
-
 <style>
+	
 
 /*======================================
 //--//-->   ABOUT
@@ -53,7 +53,7 @@
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #f4d835;
+  background-color: #faf326;
 }
 
 
@@ -141,7 +141,7 @@
       <div class="overlay"></div>
       <div class="container">
         <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-          <div class="one-third js-fullheight order-md-last img" style="background-image:url(images/rak_15.jpg);">
+          <div class="one-third js-fullheight order-md-last img" style="background-image:url(images/rak_18.jpg);">
             <div class="overlay"></div>
           </div>
           <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax="properties: { translateY: '70%' }">
@@ -574,7 +574,7 @@
           			<span class="icon-phone2"></span>
           		</div>
           		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://0101010101">+ 0 101 0101 101</a></p>
+	            <p><a href="tel://0101010101">+ 91 8187060522</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -613,6 +613,7 @@
 					  <li class="ftco-animate normal-txt">Find me on  </li>
 					  <li class="ftco-animate"><a href="https://www.youtube.com/@rakeshraki2121"><span class="icon-youtube"></span></a></li>
 					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/gamidi-rakesh-a5ba87292"><span class="icon-linkedin"></span></a></li>  
+					  <li class="ftco-animate"><a href="https://github.com/RAKESH-564/rakeshgamidiprofile.github.io" target="_blank"><span class="icon-heart"></span></a></li>
 					  <li class="ftco-animate"><a href=""><span class="icon-twitter"></span></a></li>
 					  <li class="ftco-animate"><a href=""><span class="icon-facebook"></span></a></li>
 				      <li class="ftco-animate"><a href=""><span class="icon-instagram"></span></a></li>
@@ -658,5 +659,34 @@
   
   <script src="js/main.js"></script>
     
+  <script type="text/javascript">
+    (function(d, m){
+        var kommunicateSettings = {
+            "appId": "25d3fc152e527d35b579e8b3b05d6b6a1", // Your Kommunicate App ID
+            "popupWidget": true,
+            "automaticChatOpenOnNavigation": true,
+            "botIds": ["rakibot--kz10v"], // Specify only the desired bot ID
+            "defaultBotIds": [], // Disable any default bot handling
+            "onInit": function() {
+                // Override bot settings during initialization to assign the specific bot
+                var botAssignmentSettings = {
+                    "clientId": "rakibot--kz10v", // Assign to specific bot ID
+                    "skipRouting": true // Skip any server-side routing rules that might assign other bots
+                };
+                Kommunicate.updateSettings(botAssignmentSettings);
+            }
+        };
+        
+        var s = document.createElement("script"); 
+        s.type = "text/javascript"; 
+        s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; 
+        h.appendChild(s);
+        window.kommunicate = m; 
+        m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+</script>
+
   </body>
 </html>
