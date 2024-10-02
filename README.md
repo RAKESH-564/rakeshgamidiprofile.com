@@ -6,8 +6,6 @@ Welcome to my portfolio website, where I showcase my skills, projects, and exper
 I’m currently pursuing a **B.Tech in Electronics and Communication Engineering (ECE)** at CMR College. With a passion for electronics and software development, I have gained experience through internships and certifications in **AI/ML** and **Android Development** from Eduskills.
 
 ## Skills
-Here are the key areas of my expertise:
-
 ### Technical Skills
 - **Programming Languages**: Python, C
 - **Web Development**: HTML, CSS, JavaScript
@@ -17,7 +15,6 @@ Here are the key areas of my expertise:
 
 ### Core Competencies
 - **Electronics & Communication**: Embedded Systems, iot, Microcontrollers
-- **Artificial Intelligence**: Machine Learning algorithms, Neural Networks
 - **Mobile App Development**: Android apps using Kotlin and Java
 
 ## Projects
@@ -42,9 +39,9 @@ Check out the [[Projects section]((https://rakesh-564.github.io/rakeshgamidiprof
 ## Get in Touch
 Feel free to reach out to me for collaboration, inquiries, or if you’d like to discuss my work.
 
-- **Email**: rakesh.gamidi@example.com
-- **LinkedIn**: [Your LinkedIn Profile](www.linkedin.com/in/gamidi-rakesh-a5ba87292)
-- **GitHub**: [Your GitHub Profile]((https://rakesh-564.github.io/rakeshgamidiprofile.com/))
+- **Email**: rakeshgamidi564@gmail.com
+- **LinkedIn**: [My LinkedIn Profile](www.linkedin.com/in/gamidi-rakesh-a5ba87292)
+- **GitHub**: [My GitHub Profile]((https://rakesh-564.github.io/rakeshgamidiprofile.com/))
 
 ---
 
